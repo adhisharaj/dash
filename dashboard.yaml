@@ -272,7 +272,6 @@ spec:
       containers:
         - name: dashboard-metrics-scraper
           image: kubernetesui/metrics-scraper:latest
-          imagePullPolicy: Always
           ports:
             - containerPort: 8000
               protocol: TCP
